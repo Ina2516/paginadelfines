@@ -1,0 +1,138 @@
+body {
+    margin             : 0;
+    padding            : 0;
+    background         : url(fondo-claro.jpeg);
+    background-size    : cover;
+    background-position: center;
+}
+link {
+    text-decoration: none;
+    
+}
+#descrip {
+    border: 0px;
+    
+}
+
+.descripción {
+    width: 40%;
+    height: 180px;
+    overflow: auto;
+    margin:15px;
+    padding: 6px;
+    border:solid 3px rgba(7, 4, 32, 0.603)
+}
+#descrip {
+    border: 0px;
+}
+#delfines-pareja { 
+    position: absolute;
+    top: 130px;
+    left: 800px;
+}
+.alineacionn {
+    width: 50%;
+}
+#iz {
+    position: absolute;
+    justify-content: left;
+    margin-right: 0px;
+    padding: 0;
+}
+#der {
+    position: right;
+    justify-content: right;
+    margin-left: 50%;
+    
+}
+.uno{  
+    margin-top: 50px;
+    background-color: rgba(56, 123, 201, 0.473);
+    width: 1380px;
+    margin:15px;
+    }
+#textocentro{
+    text-align: center;
+}
+.links {
+    text-decoration: none
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(4, 36, 58);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    ; font-weight: bolder;
+}
+    
+
+body {
+    background-color: rgb(140, 145, 172);
+    
+}
+
+h2 {
+    color: rgb(29, 57, 77)
+}
+
+img{ 
+    border: 2px solid rgb(4, 36, 58);
+    border-radius: 15px;
+}
+
+
+h1, h2, h5, p, .q {
+    font-style: italic;
+}
+
+.primero, .segundo {border-right: solid rgba(7, 4, 32, 0.603);
+}
+.titulos {border-bottom: solid rgba(7, 4, 32, 0.603);
+    text-align: center;
+}
+
+table {
+    width : 95%;
+    border: 2px solid rgba(7, 4, 32, 0.603);
+    border-radius: 10px;
+}
+
+td {
+    background-color: rgba(127, 155, 184, 0.664);
+}
+
+th {
+    background-color: rgba(66, 70, 73, 0.651);
+}
+
+p {
+    padding: 5px;
+    border: 3px solid rgba(4, 35, 48, 0.397);
+    border-radius: 10px;
+}
+
+table {border-radius: 10px;}
+
+#estilo {
+    font-style: italic;
+}
+
+.parrafo_1 {
+    margin-left : 20px;
+    margin-right: 20px;
+}
+
+img{
+    align-items: center;
+}
+
+h1 {
+    animation: color-change 4s infinite;
+  }
+ 
+  @keyframes color-change {
+    0% { color: rgb(29, 104, 155); }
+    50% { color: rgb(28, 124, 28); }
+    100% { color: purple; }
+  }
